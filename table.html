@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="section-input">
+        <form action="#">
+            <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            </div>
+             <div>
+            <label for="age">Age :</label>
+            <input type="number" id="age" placeholder="Enter your age">
+            </div>
+             <div>
+            <label for="contact-number">Enter your Number :</label>
+            <input type="number" id="contact-number" placeholder="Enter your contact number">
+            </div>
+             <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="Enter your email address">
+            </div>  
+            
+        </form>
+        <input class="add-to-table" type="button"onclick="addBtn();" value="add" >
+        <!-- <button  > Add</button> -->
+    </section>
+
+    <section class="table-data">
+        <table class="table-data-info">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Number</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Chidambaram</td>
+                <td>25</td>
+                <td>8667877957</td>
+                <td>ckgm20@gamil.com</td>
+            </tr>
+             <tr>
+                <td>lingam</td>
+                <td>25</td>
+                <td>29734986238</td>
+                <td>hjbscha@gamil.com</td>
+            </tr>
+             <tr>
+                <td>Thameem</td>
+                <td>25</td>
+                <td>0987654321</td>
+                <td>thameem@gamil.com</td>
+            </tr>
+        </table>
+    </section>
+    <script src="js/add-table.js">
+
+    </script>
+    
+</body>
+</html>

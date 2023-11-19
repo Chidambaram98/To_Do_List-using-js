@@ -1,0 +1,54 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    max-width: 130rem;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #555;
+}
+.section-input{
+    /* background-color: antiquewhite; */
+    display: grid;
+    justify-content: center;
+      background-color: cornflowerblue;
+      padding: 9.6rem;
+}
+.section-input form{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: column; */
+    padding: 1.2rem;
+    justify-content: space-around;
+}
+.section-input form input,label{
+    font-size: 2rem;
+    padding: 1.2rem 2.4rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+.section-input form input{
+    margin-bottom: 3.2rem;
+    margin-top: 1rem;
+}
+.add-to-table{
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 20px;
+    border-color: lightyellow;
+}
+.table-data-info,td,th,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.6rem 1.8rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4.8rem;
+    font-size: 2rem;
+}
+.table-data-info tr:nth-child(even){
+    background-color: rgb(228, 70, 242);
+}
